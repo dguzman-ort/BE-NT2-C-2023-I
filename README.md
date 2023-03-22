@@ -19,7 +19,4 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 
 ## Listado de participantes:
 
-- Paula Fuentes, - paulyta1983 
-- Daniel Guzman, dguzman-ort
-- Mariano Di Gennaro, marianopsico
-- Tomás Guerchicoff Adamo, tguerchicoff
+- Tomas Guerchicoff Adamo, - tguerchicoff
