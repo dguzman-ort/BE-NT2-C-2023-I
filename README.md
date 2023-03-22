@@ -20,4 +20,5 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 ## Listado de participantes:
 
 - Daniel Guzman, dguzman-ort
-- Mariano Di Gennaro, marianopsico
+- Mariano Di Gennaro, marianopsic
+- Matias Martinez, matiasfmart
