@@ -23,3 +23,4 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 - Daniel Guzman, dguzman-ort
 - Mariano Di Gennaro, marianopsico
 - Agustina Boto, agustinaboto
+- Lucas Funes, lucasmfunes
