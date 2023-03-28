@@ -18,6 +18,7 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 
 ## Listado de participantes:
 
+- Guido Compagno, GuidoComp
 - Tomas Guerchicoff Adamo, tguerchicoff
 - Uriel Szwarcman UrielSzw
 - Paula Fuentes, paulyta1983 
