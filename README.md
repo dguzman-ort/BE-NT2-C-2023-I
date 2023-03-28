@@ -16,9 +16,17 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
   - git push origin <nombre_rama>
 - Hacer un Pull request de sus respositorios (hechos mediante el fork) a la rama `master` del repositorio de la clase.
 
-
 ## Listado de participantes:
-- Joaquín Herreros / joaherreros
-- Paula Fuentes, - paulyta1983 
+
+- Joaquín Herreros, joaherreros
+- Guido Compagno, GuidoComp
+- Tomas Guerchicoff Adamo, tguerchicoff
+- Uriel Szwarcman UrielSzw
+- Paula Fuentes, paulyta1983 
 - Daniel Guzman, dguzman-ort
 - Mariano Di Gennaro, marianopsico
+- Ezequiel Korenblum, @EzeKoren
+- Matias Martinez, matiasfmart
+- Facundo Lopez Bruno, facuLopez
+- Agustina Boto, agustinaboto
+- Lucas Funes, lucasmfunes
