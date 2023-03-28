@@ -24,6 +24,7 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 - Paula Fuentes, paulyta1983 
 - Daniel Guzman, dguzman-ort
 - Mariano Di Gennaro, marianopsico
+- Ezequiel Korenblum, @EzeKoren
 - Matias Martinez, matiasfmart
 - Facundo Lopez Bruno, facuLopez
 - Agustina Boto, agustinaboto
