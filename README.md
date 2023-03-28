@@ -18,4 +18,9 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 
 ## Listado de participantes:
 
-Uriel Szwarcman UrielSzw
+- Uriel Szwarcman UrielSzw
+- Paula Fuentes, - paulyta1983 
+- Daniel Guzman, dguzman-ort
+- Mariano Di Gennaro, marianopsico
+- Agustina Boto, agustinaboto
+- Lucas Funes, lucasmfunes
