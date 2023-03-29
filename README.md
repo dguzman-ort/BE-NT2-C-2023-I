@@ -31,3 +31,4 @@ Para iniciar el proyecto vamos crearnos una cuenta en github. A continuacion la 
 - Agustina Boto, agustinaboto
 - Lucas Funes, lucasmfunes
 - Marina Sofía Agüero, Pehuenia
+- Matias, Mazzucchelli, MatiasMazzu
