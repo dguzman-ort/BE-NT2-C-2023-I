@@ -22,3 +22,6 @@ peticion.catch(() => { // 3
 peticion.finally(() => { //4
   console.log("El finally se ecuta no importando si la promesa se cumple o no")
 })
+
+
+console.log("Hola mundo....")
