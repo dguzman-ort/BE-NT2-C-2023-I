@@ -21,8 +21,8 @@
   }
 
 
-  /*
-  const pokemon = buscarPokemon('asdasdasdas')
+  /**
+  const pokemon = buscarPokemon('dsfwergreg')
 
   pokemon.then(data => console.log(data))
 
@@ -34,8 +34,8 @@
   //pokemon.finally(() => detenerESPINER())
 
   // invocoSpinner()
-
-  */
+   */
+  
 
   try{
     const pokemon = await buscarPokemon("ditto")
@@ -43,7 +43,7 @@
 
 
   }catch(error){
-
+    console.error(error)
   }
 
 
