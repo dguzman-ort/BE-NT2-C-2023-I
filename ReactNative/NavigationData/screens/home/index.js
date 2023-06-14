@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Card } from '@rneui/themed';
+import { ScrollView, StyleSheet, Text, TouchableHighlight, TouchableOpacity, View } from 'react-native';
+import { Card, Icon } from '@rneui/themed';
+
 
 import vehiculosService from "../../services/vehiculos";
 
@@ -26,21 +27,41 @@ export default function Home({navigation, route}) {
 
   return (
     <View style={styles.container}>
-      
       <View>
-        {vehiculos.map(vehiculo => {
-          return(
-            <Card key={vehiculo.id}>
-              <Card.Title>{vehiculo.marca}</Card.Title>
-              <Card.Divider />
-                <View>
-                  <Text>{vehiculo.modelo}</Text>
-                </View>
-            </Card>
-          )
-        })}
-        
+        <Text>Lista de Vehiculos</Text>
       </View>
+      <ScrollView>
+        <View>
+          {vehiculos.map(vehiculo => {
+            return(
+              <TouchableOpacity 
+              key={vehiculo.id}
+              onPress={() => navigation.navigate('Details', {
+                id: vehiculo.id
+              })}
+              
+              >
+                <Card>
+                  <Card.Title>{vehiculo.marca}</Card.Title>
+                  <Card.Divider />
+                    <View>
+                      <Text>{vehiculo.modelo}</Text>
+                    </View>
+                    <View>
+                      <TouchableOpacity>
+                        <Icon name='delete' />
+                      </TouchableOpacity>
+                      
+                    </View>
+                </Card>
+              </TouchableOpacity>
+              
+            )
+          })}
+          
+        </View>
+      </ScrollView>
+      
       
       <StatusBar style="auto" />
     </View>
@@ -50,7 +71,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });

@@ -1,8 +1,10 @@
 const baseURL = 'https://us-central1-api-nt2-ejemplo.cloudfunctions.net/app/api/read'
 
-const getAll = () => {
+const getAll = (params) => {
   return new Promise((accepted, rejected) => {
-    fetch(`${baseURL}/`)
+    
+    // params: {'order_by': 'name'}
+    fetch(`${baseURL}/?${params}`)
     .then(res => {
       return res.json()
     })
@@ -34,6 +36,11 @@ const getById = (id) => {
   })
 }
 
+const deleteById = (id) => {
+  
+}
+
 export default {
-  getAll
+  getAll,
+  getById
 }
